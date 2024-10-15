@@ -105,10 +105,10 @@ Una vez que la imagen esté construida, ejecuta el siguiente comando para inicia
 - HTTP/2
 
   ```bash
-  docker run --name nginx-http2 -p 8080:8080 -p 443:443 -d nginx-http2
+  docker run --name nginx-http2 -p 8080:8080 -p 445:445 -d nginx-http2
   ```
 
-  Esto expondrá los puertos 8080 (HTTP) y 443 (HTTPS) en tu máquina local.
+  Esto expondrá los puertos 8080 (HTTP) y 445 (HTTPS) en tu máquina local.
 
 ## Uso del Proyecto
 
