@@ -4,7 +4,7 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 
 COPY html /usr/share/nginx/html
 
-COPY ../ssl/nginx-selfsigned.crt /etc/ssl/nginx-selfsigned.crt
-COPY ../ssl/nginx-selfsigned.key /etc/ssl/nginx-selfsigned.key
+COPY ssl/nginx-selfsigned.crt /etc/ssl/nginx-selfsigned.crt
+COPY ssl/nginx-selfsigned.key /etc/ssl/nginx-selfsigned.key
 
 EXPOSE 6060 444
